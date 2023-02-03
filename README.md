@@ -48,7 +48,6 @@ Deploy new GitLab Runners, test, decommission old Runners
 ## Rollback Plan
 ```
 The rollback plan involves:
-    deploying a new Google Cloud Compute instance (as necessary)
     restoring the gitlab.rb and gitlab-secrets.json, other useful contents in /etc and GitLab
     application backup that was taken and transferred
     verifying the functionality by performing the Pre-Upgrade Checks and Tasks
